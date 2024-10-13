@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 10px 30px;
+   
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+ 
+}
+.menu li a{
+    text-decoration: none;
+   margin-left: 25px;
+   font-size: 15px;
+   font-weight: 500;
+
+}
+.navb{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navb h2{
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+.fa-phone-square::before{
+    margin-left: 15px;
+}
+.herosection{
+    width: 100%;
+    padding:  15%  70px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.heroright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:self-start;
+   
+
+}
+.heroright h2{
+    font-size: 38px;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+}
+h3{
+    font-size: 27px;
+    font-weight: 900;
+    color: black;
+    margin-top: 25px;
+}
+.heroright p{
+    margin-top: 25px;
+    width: 65%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn button{
+    background-color: lightskyblue ;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.logo1{
+    width: 700px;
+}
+.section{
+    width: 100%;
+    height: 30vw;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+
+}
+.sectionparent{
+    justify-content: center;
+    padding: 0px 30%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.sectionparent h2{
+    margin-top: 15%;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+.sectionparent p{
+    width: 100%;
+    max-width: 750px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: white;
+}
+.btn1 button{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid white;
+    background-color: white;
+    color: lightskyblue;
+    border-radius: 35px;
+    padding: 10px 23px;
+    margin-top: 20px;
+}
+.btn1 button:hover{
+    background-color: blue;
+}
+.sec{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 50px;
+}
+.sec h5{
+    font-size: 20px;
+    color: white;
+}
+.sectionright{
+    width: 100%;
+    height: 55vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.sectionrep{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 15%;
+    justify-content: center;
+    align-items: center;
+}
+.sectionrep h3{
+  font-size: 30px;
+  font-weight: 300;
+  
+}
+.sectionleft{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.sectionhero{
+    width: 330px;
+    height: 500px;
+    margin-left: 15px;
+    border: 3px solid white;
+    background-color: whitesmoke;
+    padding: 20px 15px ;
+   
+}
+.sectionhero h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sectionhero h2:hover{
+    text-decoration: underline;
+}
+.sectionhero p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.sectionher{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.sectionher h3{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.logo2{
+    width: 280px;
+    height: 300px;
+    margin-top: 45px;
+    margin-left: 5px;
+}
+.sectionwork{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(52, 180, 223);
+   justify-content: center;
+   align-items: center;
+   padding: 15px 50px; 
+}
+.sectionwork h2{
+    font-size: 20px;
+    color: white;
+}
+.sectionimage{
+ width: 100%;
+ margin-top: 70px;
+ display: flex;
+ flex-direction: row;
+ padding: 0px 30px; 
+ 
+}
+.sectionflight{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 20px;
+}
+.sectionflight h4{
+    font-size: 45px;
+    font-weight: 100;
+    width: 70%;
+    max-width: 500px;
+}
+.sectionflight p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+    margin-top: 30px;
+}
+.btn3 button{
+    background-color: lightskyblue ;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.logo3{
+    width: 700px;
+   
+}
+.seccareer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(52, 180, 223);
+   justify-content: center;
+   align-items: center;
+   padding: 15px 50px; 
+   margin-top: 70px;
+}
+.seccareer h2{
+    font-size: 20px;
+    color: white;
+} 
+.sectionimg{
+    width: 100%;
+ margin-top: 70px;
+ display: flex;
+ flex-direction: row;
+ padding: 0px 30px; 
+
+}
+.logo4{
+    width: 700px;
+    height: 500px;
+}
+.secimg{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 120px;
+   margin-left: 70px;
+}
+.secimg h4{
+    font-size: 70px;
+    font-weight: 100;
+}
+.secimg p{
+font-size: 18px;
+width: 95%;
+margin-top: 30px;
+}
+.btn4 button{
+    background-color: lightskyblue ;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 7px;
+}
+.secimg h3{
+    margin-left: 50%;
+    margin-top: 200px;
+    font-size: 25px;
+    color: lightskyblue;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-self: center;
+    margin-top: 90px;
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 50px;
+    color: white;
+}
+.footerright h2{
+font-size: 35px;
+font-weight: 500;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.footerleft li {
+   display: flex; 
+   flex-direction: column;
+   margin-bottom: 35px;
+   font-size: 25px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.menulist1 li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 80px;
+    list-style: none;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    padding:60px 90%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.left h5{
+    font-size: 20px;
+   
+}
+.live{
+ display: flex;
+ flex-direction: row;
+ 
+}
+.fa-facebook-f{
+width: 40px;
+padding: 5px;
+}
+.fa-linkedin-in{
+    width: 40px;
+padding: 5px;
+}
+.fa-x-twitter{
+    width: 40px;
+    padding: 5px;
+}
+.fa-instagram{
+    width: 40px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
